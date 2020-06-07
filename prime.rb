@@ -3,7 +3,7 @@ def prime?(n)
     (2..n-1).none? do |num| 
       n % num == 0
     end 
-  else n < 0 
+  else n < 1 
     false 
   end
 end
